@@ -37,14 +37,33 @@ body {
 
 header {
     grid-area: hd;
-    background-color: lightblue;
-    text-align: center;
+    background-color: rgb(85, 161, 194);
+    margin-bottom: 10px;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 nav {
     grid-area: nv;
-    background-color: rgb(43, 155, 193);
-   
+    background-color: rgb(57, 138, 189);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-content {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 80%;
+    width: 20%;
+    background-color:  rgb(37, 86, 117);
+    color: aliceblue;
+    border-radius: 40px;
+    border: none;
 }
 
 #latest-posts {
@@ -135,5 +154,5 @@ footer {
 
 #main-aboutus {
     grid-area: s2;
-    background-color: ;
+    background-color: lightblue;
 }
