@@ -83,6 +83,7 @@ a {
     width: 45%;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-post {
@@ -216,6 +217,7 @@ footer {
     width: 100%;
     object-fit: cover;
     text-overflow: clip;
+    border-radius: 10px;
 }
 
 .employee-name {
@@ -238,6 +240,3 @@ footer {
     text-align: center;
 }
 
-#uber-uns-text {
-    
-}
